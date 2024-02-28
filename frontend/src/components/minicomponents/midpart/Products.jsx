@@ -16,7 +16,7 @@ const Products = ({choice,idx,MainDiscription}) => {
                <h4>Builder</h4>
              </div>
              <ProdDescription MainDiscription={MainDiscription}/>
-             <div className="flex flex-col justify-between items-center">
+             <div className="flex flex-col justify-between items-center py-3">
               <Rating/>
               <Button props={"view"}/>
              </div>

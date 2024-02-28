@@ -13,7 +13,7 @@ const ProdDescription = ({MainDiscription}) => {
         <div className="text-gray-900 font-bold my-2">Main highlights</div>
         <div className="mx-2">{MainDiscription?MainDiscription:<MainHighlightDesc/>}</div>
         </div>
-        <div className="hover:underline hover:text-blue-500 flex items-center p-2">show more <IoIosArrowDown className="mt-2 m-1"/></div>
+        <div className="hover:underline hover:text-blue-500 flex items-center p-2 cursor-pointer">show more <IoIosArrowDown className="mt-2 m-1"/></div>
     </div>
   )
 }
