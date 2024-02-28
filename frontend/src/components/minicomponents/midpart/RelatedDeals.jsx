@@ -4,7 +4,7 @@ import Button from "../../../smallComponents/Button";
 
 const RelatedDeals = () => {
   return (
-    <div className="w-[333px] h-[425px] bg-white m-2 flex flex-col justify-between gap-y-1 p-5  text-gray-600  ">
+    <div className="w-[333px] h-[425px] bg-white m-2 flex flex-col justify-between gap-y-1 p-5  text-gray-600 shadow-md shadow-gray-200 rounded-lg ">
         <img  className=" w-[141px] h-[103px] ml-[75px] " src={Builder}/>
         <div>
             <span className="bg-gray-100 px-2 py-1 m-1 rounded-md">20% Off</span>
